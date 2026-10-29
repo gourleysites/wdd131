@@ -1,0 +1,20 @@
+Naming Conventions
+
+Use all lowercase letters, such as products.html
+
+Do NOT use spaces in file and folder names. Use hyphens instead, such as design-document.html
+
+Do NOT use special characters, e.g., <, >, \, /, #, ?, !
+
+File and folder names should beas short and meaningful (semantic) as possible. For example, use winter-scene-sm.png
+rather than image13-v123523brokenbranchlifeimagery w200x200.png
+
+In this class, the standard folder names for our sites/subfolders are:
+
+styles - Folders with this name contain CSS files
+
+images - Folders with this name contain images
+
+scripts - Folders with this name contain JavaScript files
+
+Generating a blank and core semantic HTML structure using "!" and then tab
