@@ -18,3 +18,77 @@ images - Folders with this name contain images
 scripts - Folders with this name contain JavaScript files
 
 Generating a blank and core semantic HTML structure using "!" and then tab
+
+Introduction to JavaScript
+
+JavaScript is a popular, well-supported programming language used to create interactive and dynamic web pages, mobile 
+apps, desktop applications, and more. It is a high-level language that runs in the browser, and it can also run on the 
+server side with a runtime like Node.js.
+
+JavaScript is one of the three core technologies of web frontend development, alongside HyperText Markup Language (HTML)
+and Cascading Style Sheets (CSS).
+
+- HTML defines the structure and meaning of a page
+
+- CSS defines the style or presentation of a page
+
+- JavaScript handles behavior based on user interaction and other events
+
+The file extension for JavaScript files is .js
+
+JavaScript is included on web pages by using the <script> HTML tag to include JavaScript code in HTML
+
+The standard ways to reference JavaScript
+
+- Use external JavaScript files
+
+- Place the .js JavaScript files in the scripts subfolder
+
+- Reference the script file in the head of the HTML document
+
+- Use the defer attribute to ensure the HTML loads first so that the JavaScript can interact with the HTML
+
+<head>
+    ...
+    <script src="scripts/myscripts.js" defer></script>
+</head>
+
+JavaScript Variables
+
+Variables are used to store values. These values can be primitive, such as a number, string, Boolean, null, or undefined,
+or they can be objects, such as a function, class, or object literal. These stored values can be used as input to expressions,
+in processing, or in output to display information.
+
+const: Declares a variable whose binding cannot be reassigned. Once you assign a value to a const variable, you cannot reassign
+it later in your code. (You can still change the contents of a const object or array; only reassigning the variable itself is disallowed.)
+
+const currentYear = new Date().getFullYear();
+
+The currentYear variable is assigned the computer's current year and cannot be reassigned later.
+
+let: Declares a variable that can be reassigned later in your code.
+
+let isLoggedIn = false;
+
+In JavaScript, you can use single quotes ('), double quotes ("), or backticks (`) to define string literals.
+
+The most common approach is to use single quotes.
+
+'This is a string'
+
+Double quotes are also commonly used. They can help you avoid escaping single quotes.
+
+"It's a beautiful day!"
+
+Since HTML attributes are often enclosed in double quotes, some developers prefer to use single quotes for JavaScript strings to visually
+distinguish them.
+
+Template literals use backticks and support multi-line strings naturally. They also allow embedding variables and JavaScript expressions directly.
+
+Template literals are string literals that allow embedded expressions. They are enclosed by backticks (`) instead of single or double quotes.
+Template literals can contain placeholders, which are indicated by a dollar sign and curly braces ${expression}.
+
+let name = 'Alicia';
+let age = 25
+let message = `My name is ${name} and I am ${age} years old.`;
+
