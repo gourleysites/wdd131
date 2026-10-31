@@ -80,9 +80,9 @@ main {
 }
 
 .card {
-    border: 1px solid #ccc;
+    border: 1px solid rgb(204, 204, 204);
     border-radius: 8px;
-    background-color: #ffffff;
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
     padding: 0 1.5rem 1.5rem 1.5rem;
 }
@@ -97,7 +97,7 @@ main {
 
 .card h3 {
     text-align: center;
-    border-bottom: 1px solid #b0b0b0;
+    border-bottom: 1px solid rgb(176, 176, 176);
     padding-bottom: 0.4rem;
     margin: 1.5rem auto 1rem auto;
     width: 90%;
