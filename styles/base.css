@@ -1,0 +1,159 @@
+:root {
+    --primary-blue: rgb(39, 72, 161);
+    --dark-gray: rgb(54, 53, 53);
+    --text-white: rgb(255, 255, 255);
+    --font-main: 'Nunito', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-main);
+}
+
+header {
+    background-color: var(--primary-blue);
+    color: var(--text-white);
+    display: block;
+    position: relative;
+    min-height: 140px;
+    width: 100%;
+    text-align: center;
+}
+
+#course-title {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: normal;
+    margin: 0;
+    padding-top: 1.5rem;
+}
+
+nav {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--dark-gray);
+    padding: 0.75rem 0;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    color: var(--text-white);
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 0.25rem 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: var(--primary-blue);
+    color: var(--text-white);
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5rem;
+}
+
+.main-title {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ffffff;
+    overflow: hidden;
+    padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.card h2 {
+    background-color: var(--primary-blue);
+    color: var(--text-white);
+    padding: 0.75rem 1rem;
+    margin: 0 -1.5rem 1.5rem -1.5rem;
+    text-align: center;
+}
+
+.card h3 {
+    text-align: center;
+    border-bottom: 1px solid #b0b0b0;
+    padding-bottom: 0.4rem;
+    margin: 1.5rem auto 1rem auto;
+    width: 90%;
+}
+
+.card ul {
+    
+    padding-left: 1.5rem;
+    padding-top: 9rem;
+}
+
+.card li {
+    margin-bottom: 0.6rem;
+}
+
+.card li a {
+    text-decoration: underline;
+}
+
+.card li a:hover {
+    color: #002266;
+}
+
+.intro-container {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.intro-container img {
+    border-radius: 4px;
+    flex-shrink: 0;
+}
+
+.state-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.state-container figure {
+    margin: 0;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--primary-blue);
+    color: var(--text-white);
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+}
+
+.state-container figcaption {
+    text-align: center;
+}
