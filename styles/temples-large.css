@@ -1,5 +1,7 @@
-@media screen and (min-width: 740px) {
+@media screen and (min-width: 500px) {
     header {
+        background-color: var(--primary-blue);
+        color: var(--text-white);
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -9,19 +11,20 @@
     }
 
     #menu {
-        display: none;
+        display: none !important;
     }
 
     nav {
+        background-color: var(--primary-blue);
         display: flex !important;
         flex-direction: row;
         gap: 1rem;
+        margin-top: 0;
     }
 
     nav a {
         padding: 0.5rem 0.75rem;
         gap: 0.95rem;
-        white-space: nowrap;
     }
 
     .gallery {
