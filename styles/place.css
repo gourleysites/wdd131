@@ -1,19 +1,19 @@
 :root {
-    --primary-color: #2b2b2b; 
-    --accent-color: #bc002d;  
+    --primary-color: rgb(43, 43, 43); 
+    --accent-color: rgb(188, 0, 45);  
     --card-bg: rgba(255, 255, 255, 0.95);
-    --text-color: #1a1a1a;
+    --text-color: rgb(26, 26, 26);
 }
 body {
     margin: 0;
     font-family: 'Nunito', Arial, sans-serif;
     color: var(--text-color);
-    background-color: #f4f4f4;
+    background-color: rgb(244, 244, 244);
 }
 
 header {
     background-color: var(--primary-color);
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 1rem;
 }
@@ -33,7 +33,7 @@ main {
 
 .data-card, .weather-card {
     background-color: var(--card-bg);
-    border: 1px solid #ccc;
+    border: 1px solid rgb(204, 204, 204);
     border-radius: 8px;
     padding: 1.5rem;
     margin: 1.5rem 0;
@@ -74,7 +74,7 @@ main {
 
 footer {
     background-color: var(--primary-color);
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 1.5rem 0;
     margin-top: 2rem;
