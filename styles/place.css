@@ -42,7 +42,8 @@ main {
 
 .data-card h2, .weather-card h2 {
     text-align: center;
-    background-color: var(--accent-color);
+    border-bottom: 5px solid var(--accent-color);
+    border-radius: 5px;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     margin-top: 0;
