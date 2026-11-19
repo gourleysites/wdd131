@@ -11,12 +11,12 @@
     }
 
     #menu {
-        display: none !important;
+        display: none;
     }
 
     nav {
         background-color: var(--primary-blue);
-        display: flex !important;
+        display: flex;
         flex-direction: row;
         gap: 1rem;
         margin-top: 0;
